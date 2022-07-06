@@ -1,22 +1,22 @@
 body {
-    background-image: url(images/image.png);
-    background-repeat: no-repeat;
-    background-size: cover;
+
     font-family: 'Poppins', sans-serif;
     margin: 0%;
 }
 
 .top-1 {
+    background-image: url(images/image.png);
+    background-repeat: no-repeat;
+    background-size: cover;
     color: white;
     text-decoration: solid;
     text-shadow: 4px 4px 12px black;
     text-align: center;
-    margin-top: 100px;
-    margin-left: 20%;
-    margin-right: 20%;
-    margin-bottom: 150px;
-    padding-top: 10px;
-    padding-bottom: 10px;
+    padding-top: 100px;
+    padding-left: 20%;
+    padding-right: 20%;
+    padding-bottom: 150px;
+
 }
 
 
@@ -30,6 +30,32 @@ body {
     border-radius: 5px;
 }
 
+.top-2 {
+    padding-top: 50px;
+    text-align: center;
+    color: black;
+
+}
+
+.bg {
+    align-items: center;
+    box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5);
+    width: 100px;
+    height: 100px;
+    float: left;
+    display: block;
+    margin-right: 4px;
+    background-image: linear-gradient(top left, #FFFFFF 0%, #00A3EF 100%);
+
+}
+
+.OtherAmt {
+    color: gray;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
 #title {
     font-size: 70px;
 }
@@ -39,4 +65,17 @@ body {
     color: white;
     text-decoration: solid;
     font-size: x-large;
+}
+
+#p2 {
+    font-weight: 700;
+    color: gray;
+    text-decoration: solid;
+    font-size: medium;
+    padding-left: 30%;
+    padding-right: 30%;
+}
+
+#dnt {
+    font-weight: 700;
 }
