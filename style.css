@@ -1,0 +1,30 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0%;
+}
+
+.top-1 {
+
+    text-align: center;
+    margin-top: 100px;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-bottom: 150px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+
+.link-button {
+    text-decoration: none;
+    background-image: linear-gradient(tomato, red);
+    background-color: orange;
+    color: white;
+    font-weight: 700;
+    padding: 10px 30px;
+    border-radius: 5px;
+}
+
+#title {
+    font-size: 70px;
+}
