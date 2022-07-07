@@ -85,6 +85,7 @@ body {
     padding-left: 20px;
     box-shadow: 10px 10px 40px gray;
     border-radius: 10px;
+    padding-top: 10px;
 
 }
 
@@ -93,6 +94,7 @@ body {
     width: 60%;
     margin-left: 20%;
     text-align: center;
+
 
 }
 
@@ -116,6 +118,7 @@ body {
     font-size: medium;
     padding-left: 30%;
     padding-right: 30%;
+    text-align: center;
 }
 
 #dnt {
@@ -143,4 +146,13 @@ body {
     padding-top: 1px;
     font-size: medium;
     text-align: justify;
+    padding-right: 80px;
+}
+
+footer h2 {
+    background: rgba(0, 0, 0, 0.5) left top;
+    text-align: center;
+    height: 223px;
+    clear: both;
+    padding-top: 100px;
 }
