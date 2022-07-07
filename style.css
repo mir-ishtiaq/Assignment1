@@ -159,7 +159,9 @@ body {
     padding-bottom: 30px;
 }
 
-
+#help {
+    font-size: larger;
+}
 
 footer h2 {
     background: rgba(0, 0, 0, 0.5) left top;
