@@ -38,27 +38,30 @@ body {
 }
 
 .ul {
-    align-content: center;
+    display: table;
+    margin: 0 auto;
 }
 
 .bg {
     text-align: center;
-    color: gray;
+    color: darkslategrey;
     box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5);
-    width: 70px;
-    height: 70px;
+    width: 80px;
+    height: 80px;
     float: left;
-    display: block;
-    margin-right: 4px;
+    display: inline;
+    margin-right: 30px;
     background-image: linear-gradient(top left, #FFFFFF 0%, #00A3EF 100%);
-    padding-top: 30px;
+    padding-top: 50px;
 }
 
 .OtherAmt {
     color: gray;
     text-align: center;
-    margin-top: 30px;
-    margin-bottom: 30px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    text-decoration: underline;
+    padding-bottom: 40px;
 
 }
 
@@ -90,10 +93,13 @@ body {
 }
 
 .email {
-    padding: 40px 60px;
-    width: 60%;
+    padding: 70px 80px;
+    width: 50%;
     margin-left: 20%;
+
     text-align: center;
+    background-color: antiquewhite;
+    margin-bottom: 50px;
 
 
 }
@@ -118,12 +124,15 @@ body {
     font-size: medium;
     padding-left: 30%;
     padding-right: 30%;
+    padding-bottom: 30px;
     text-align: center;
 }
 
 #dnt {
     text-align: center;
     font-weight: 700;
+    font-size: 40px;
+    padding-bottom: 20px;
 }
 
 #expr {
@@ -147,12 +156,16 @@ body {
     font-size: medium;
     text-align: justify;
     padding-right: 80px;
+    padding-bottom: 30px;
 }
+
+
 
 footer h2 {
     background: rgba(0, 0, 0, 0.5) left top;
     text-align: center;
-    height: 223px;
+    height: 120px;
     clear: both;
-    padding-top: 100px;
+    padding-top: 80px;
+    color: yellow
 }
